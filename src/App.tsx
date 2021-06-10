@@ -58,7 +58,7 @@ const App = () => {
           <button onClick={() => reset()}>Reset</button>
       </div>
       {loading ? <span>Cargando</span> : (
-        data && <span>Station {station?.station_id} of {data.length} is the station with the most bicycles available: {station?.num_bikes_available} in total at the moment.</span>
+        data && <span>Station {station?.station_id} of {data.length} is the station with the most bikes available: {station?.num_bikes_available} in total at the moment.</span>
       )}
     </div>
   );
